@@ -14,10 +14,10 @@ $(document).ready(function() {
     if (sideMenuState =='show') {
       $('#sidebarMenu').addClass( "d-none" );
 
-      $('#sidebarMenuNav').removeClass( "col-md-3 col-lg-2 d-md-block" );
+      $('#sidebarMenuNav').removeClass( "col-md-3 col-lg-3 d-md-block" );
       $('#sidebarMenuNav').addClass( "d-none" );
 
-      $('#pageContents').removeClass( "col-md-9 col-lg-10" );
+      $('#pageContents').removeClass( "col-md-9 col-lg-9" );
       $('#pageContents').addClass( "col-md-12" );
 
       sideMenuState = 'hide';
@@ -27,10 +27,10 @@ $(document).ready(function() {
       $('#sidebarMenu').removeClass( "d-none" );
 
       $('#sidebarMenuNav').removeClass( "d-none" );
-      $('#sidebarMenuNav').addClass( "col-md-3 col-lg-2 d-md-block" );
+      $('#sidebarMenuNav').addClass( "col-md-3 col-lg-3 d-md-block" );
 
       $('#pageContents').removeClass( "col-md-12" );
-      $('#pageContents').addClass( "col-md-9 col-lg-10" );
+      $('#pageContents').addClass( "col-md-9 col-lg-9" );
 
       sideMenuState = 'show';
     }
