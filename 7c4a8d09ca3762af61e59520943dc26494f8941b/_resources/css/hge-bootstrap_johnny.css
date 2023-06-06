@@ -1,9 +1,23 @@
 /* hge-bootsrap Zim template styles for single-page and multi-page variants */
 
 body {
-  font-size: .875rem;
   background-color: #2e3236;
   color: #e0e0e1;
+}
+
+#pageContents{
+  min-height: 92vh;
+  padding-bottom: 7rem;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 /* Fix to set offset on anchor elements so they are not hidden by top nav */
